@@ -1,6 +1,6 @@
 <div align="center">
 
-![](https://github.com/ilhmtfmlt2/Epic-Games/blob/develop/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png)
+![](https://raw.githubusercontent.com/ilhmtfmlt2/Epic-Games/main/img/Epic.jpg)
 
 # BILIBILIAS
 
