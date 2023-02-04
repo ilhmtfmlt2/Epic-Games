@@ -9,6 +9,7 @@
 ![GitHub](https://img.shields.io/github/license/ilhmtfmlt2/Epic-Games)
 [![GitHub Issues](https://img.shields.io/github/issues/ilhmtfmlt2/Epic-Games?style=flat-square)](https://github.com/ilhmtfmlt2/Epic-Games/issues)
   [![GitHub Forks](https://img.shields.io/github/forks/ilhmtfmlt2/Epic-Games?style=flat-square)](https://ilhmtfmlt2/Epic-Games/BiliBiliTool/network)
+  [![GitHub Stars](https://img.shields.io/github/stars/ilhmtfmlt2/Epic-Games?style=flat-square)](https://github.com/ilhmtfmlt2/Epic-Games/stargazers)
 </div>
 
 ---
