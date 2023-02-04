@@ -8,9 +8,6 @@
 ![Python](https://img.shields.io/badge/Python-3.9|3.8-blue)
 ![GitHub](https://img.shields.io/github/license/ilhmtfmlt2/Epic-Games)
 [![GitHub Issues](https://img.shields.io/github/issues/ilhmtfmlt2/Epic-Games?style=flat-square)](https://github.com/ilhmtfmlt2/Epic-Games/issues)
-[![GitHub All Releases](https://img.shields.io/github/downloads/ilhmtfmlt2/Epic-Games/total?style=flat-square)](https://github.com/ilhmtfmlt2/Epic-Games/releases)
-![GitHub Release (latest SemVer)](https://img.shields.io/github/v/release/ilhmtfmlt2/Epic-Games?style=flat-square)
-
 </div>
 
 ---
