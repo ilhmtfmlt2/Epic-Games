@@ -2,7 +2,7 @@
 
 ![](https://raw.githubusercontent.com/ilhmtfmlt2/Epic-Games/main/img/Epic.jpg)
 
-# BILIBILIAS
+# Epic-Games
 
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/ilhmtfmlt2/Epic-Games?label=version)
 ![Android Sdk Require](https://img.shields.io/badge/android-5.0%2B-informational)
