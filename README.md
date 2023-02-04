@@ -4,7 +4,9 @@
 
 # Epic-Games
 
-![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/ilhmtfmlt2/Epic-Games?label=version)
+[![STARS](https://img.shields.io/github/stars/MoyuScript/bilibili-api?color=yellow&label=Github%20Stars)][stargazers]
+![Python](https://img.shields.io/badge/Python-3.9|3.8-blue)
+[![Testing](https://github.com/MoyuScript/bilibili-api/actions/workflows/testing.yml/badge.svg)](https://github.com/MoyuScript/bilibili-api/actions/workflows/testing.yml)
 ![Android Sdk Require](https://img.shields.io/badge/android-5.0%2B-informational)
 ![GitHub](https://img.shields.io/github/license/ilhmtfmlt2/Epic-Games)
 
