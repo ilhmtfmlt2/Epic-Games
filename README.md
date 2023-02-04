@@ -8,6 +8,7 @@
 ![STARS](https://img.shields.io/github/stars/ilhmtfmlt2/Epic-Games-api?color=yellow&label=Github%20Stars)
 ![Python](https://img.shields.io/badge/Python-3.9|3.8-blue)
 ![GitHub](https://img.shields.io/github/license/ilhmtfmlt2/Epic-Games)
+[![GitHub Issues](https://img.shields.io/github/issues/ilhmtfmlt2/Epic-Games?style=flat-square)](https://github.com/ilhmtfmlt2/Epic-Games/issues)
 
 
 </div>
