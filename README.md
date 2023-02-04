@@ -8,6 +8,7 @@
 ![Python](https://img.shields.io/badge/Python-3.9|3.8-blue)
 ![GitHub](https://img.shields.io/github/license/ilhmtfmlt2/Epic-Games)
 [![GitHub Issues](https://img.shields.io/github/issues/ilhmtfmlt2/Epic-Games?style=flat-square)](https://github.com/ilhmtfmlt2/Epic-Games/issues)
+  [![GitHub Forks](https://img.shields.io/github/forks/ilhmtfmlt2/Epic-Games?style=flat-square)](https://ilhmtfmlt2/Epic-Games/BiliBiliTool/network)
 </div>
 
 ---
