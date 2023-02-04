@@ -37,12 +37,13 @@
 [bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect)
 
 ## 感谢开源项目
-[bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect)
+[GetEPICFreeGames](https://github.com/doupoa/GetEPICFreeGames)
+[Epic-Weekly-Free-Games](https://github.com/hypersport/Epic-Weekly-Free-Games)
 
 ## 下载
-|   系统    |                            GitHub                            |                  官网                   |
-|:-------:|:------------------------------------------------------------:|:-------------------------------------:|
-| Android | [Release](https://github.com/ilhmtfmlt2/Epic-Games/releases) | [官网](https://api.misakaloli.com/app/) |
+|   系统    |                            GitHub                            |
+|:-------:|:------------------------------------------------------------:|
+| python | [Release](https://github.com/ilhmtfmlt2/Epic-Games/releases) |
 
 
 ## 🔭最近关注
