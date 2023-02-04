@@ -5,13 +5,11 @@
 # Epic-Games
 
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/ilhmtfmlt2/Epic-Games?label=version)
-![STARS](https://img.shields.io/github/stars/ilhmtfmlt2/Epic-Games-api?color=yellow&label=Github%20Stars)
 ![Python](https://img.shields.io/badge/Python-3.9|3.8-blue)
 ![GitHub](https://img.shields.io/github/license/ilhmtfmlt2/Epic-Games)
 [![GitHub Issues](https://img.shields.io/github/issues/ilhmtfmlt2/Epic-Games?style=flat-square)](https://github.com/ilhmtfmlt2/Epic-Games/issues)
 [![GitHub All Releases](https://img.shields.io/github/downloads/ilhmtfmlt2/Epic-Games/total?style=flat-square)](https://github.com/ilhmtfmlt2/Epic-Games/releases)
 ![GitHub Release (latest SemVer)](https://img.shields.io/github/v/release/ilhmtfmlt2/Epic-Games?style=flat-square)
-[![GitHub License](https://img.shields.io/github/license/ilhmtfmlt2/Epic-Games?style=flat-square)](https://github.com/ilhmtfmlt2/Epic-Games/blob/main/LICENSE)
 
 </div>
 
