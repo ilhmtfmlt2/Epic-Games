@@ -34,7 +34,7 @@
 
 
 ## 采用的API接口参考
-[bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect)
+[EpicResearch](https://github.com/MixV2/EpicResearch)
 
 ## 感谢开源项目
 [GetEPICFreeGames](https://github.com/doupoa/GetEPICFreeGames)
