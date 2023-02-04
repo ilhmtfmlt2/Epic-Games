@@ -8,6 +8,7 @@
 ![STARS](https://img.shields.io/github/stars/MoyuScript/bilibili-api?color=yellow&label=Github%20Stars)
 ![Python](https://img.shields.io/badge/Python-3.9|3.8-blue)
 [![Testing](https://github.com/MoyuScript/bilibili-api/actions/workflows/testing.yml/badge.svg)](https://github.com/MoyuScript/bilibili-api/actions/workflows/testing.yml)
+[![GitHub Stars](https://img.shields.io/github/stars/ilhmtfmlt2/Epic-Games?style=flat-square)](https://github.com/ilhmtfmlt2/Epic-Games/stargazers)
 ![GitHub](https://img.shields.io/github/license/ilhmtfmlt2/Epic-Games)
 
 
