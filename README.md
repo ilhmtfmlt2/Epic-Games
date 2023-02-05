@@ -45,7 +45,9 @@
 |   系统    |                            GitHub                            |
 |:-------:|:------------------------------------------------------------:|
 | python | [Release](https://github.com/ilhmtfmlt2/Epic-Games/releases) |
-
+```
+ql repo https://github.com/yuxian158/check.git "ck_" "" "checksend|utils"
+```
 
 ## 🔭最近关注
 
