@@ -48,7 +48,7 @@
 
 青龙拉库
 ```
-ql repo https://github.com/yuxian158/check.git "ck_" "" "checksend|utils"
+ql repo https://github.com/ilhmtfmlt2/Epic-Games.git
 ```
 
 ## 🔭最近关注
