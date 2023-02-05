@@ -32,6 +32,22 @@
 - [x] 下周限免
 - [x] 截止日期
 
+## 文件结构
+weibo_supertopic_sign/ <br>
+| -- notify/ <br>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| -- \_\_init\_\_.py <br>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| -- dingdingbot.py -> 钉钉机器人通知(钉钉) <br>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| -- notifier.py    -> 全通知渠道运行 <br>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| -- qmsgchan.py    -> Qmsg酱通知(QQ) <br>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| -- serverchan.py  -> Server酱通知(微信) <br>
+| -- \_\_init\_\_.py <br>
+| -- config.json -> 本地参数json文件<br>
+| -- config.py -> 从环境或本地获取参数<br>
+| -- index.py -> 脚本入口文件<br>
+| -- requirements.txt -> 安装依赖时所用文本<br>
+| -- supertopicsign.py -> 微博超话关注列表的获取及签到<br>
+| -- utils.py -> 系统打印设置<br>
+
 
 ## 采用的API接口参考
 [EpicResearch](https://github.com/MixV2/EpicResearch)
