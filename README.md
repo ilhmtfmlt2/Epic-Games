@@ -25,6 +25,7 @@
 
 
 ## 获取的数据
+- [x] 发行商
 - [x] 游戏名称
 - [x] 游戏原价
 - [x] 购买链接
@@ -38,12 +39,7 @@ Epic-Games/ <br>
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| -- dingdingbot.py -> 无用的主页介绍图片 <br>
 | -- LICENSE.md -> 无用的LICENSE文件<br>
 | -- README.md -> 无用的介绍文件<br>
-| -- config.json -> 提供生成格式<br>
-| -- config.py -> 读取生成的文本<br>
-| -- config.txt -> 保存获取的游戏信息<br>
-| -- main.py -> 获取游戏的主要信息<br>
-| -- run.py -> 运行脚本<br>
-| -- time.py -> 获取游戏的时间信息<br>
+| -- Epic.py -> 脚本文件<br>
 ## 采用的API接口参考
 [EpicResearch](https://github.com/MixV2/EpicResearch)
 
