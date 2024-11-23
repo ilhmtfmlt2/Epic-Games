@@ -71,7 +71,7 @@ python main.py
 
 ## 🎨 示例邮件预览
 
-![邮件预览](https://via.placeholder.com/600x400?text=邮件预览图示例)
+![邮件预览](https://raw.githubusercontent.com/ilhmtfmlt2/Epic-Games/refs/heads/main/img/main.jpg)
 
 ## 🔧 自定义
 
