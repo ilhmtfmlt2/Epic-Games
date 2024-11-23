@@ -58,7 +58,7 @@ pip install requests
 
 执行以下命令获取限免游戏并发送邮件：
 ```bash
-python main.py
+python Epic.py
 ```
 
 ## 🛠️ 主要文件
