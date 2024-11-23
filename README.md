@@ -1,5 +1,3 @@
-以下是修改后的项目介绍，格式更加紧凑，并优化了 Markdown 的排版与内容。
-
 ```markdown
 <div align="center">
 
