@@ -15,9 +15,9 @@
 
 ---
 
-# Epic Weekly Free Games Notifier
+# Epic-Games
 
-🚀 **Epic Weekly Free Games Notifier** 是一个脚本，用于自动获取 Epic Games 商店的每周限免游戏信息，并通过邮件推送给用户。它能实时获取本周和下周即将限免的游戏，并生成美观的 HTML 邮件内容。
+🚀 **Epic-Games** 用于自动获取 Epic Games 商店的每周限免游戏信息，邮件推送给。获取本周和下周即将限免的游戏。
 
 ## ✨ 功能
 
