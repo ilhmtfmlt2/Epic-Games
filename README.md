@@ -41,13 +41,17 @@ pip install requests
 ```json
 {
   "email": {
-    "sender_email": "your_email@example.com",
-    "password": "your_email_password",
     "smtp_server": "smtp.example.com",
     "port": 465,
-    "receiver_email": ["receiver1@example.com", "receiver2@example.com"]
+    "sender_email": "your_email@example.com",
+    "password": "your_email_password",
+    "receiver_email": [
+      "receiver1@example.com",
+      "receiver2@example.com"
+    ]
   }
 }
+
 ```
 
 ### 3. 运行脚本
