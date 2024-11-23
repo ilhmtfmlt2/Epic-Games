@@ -1,70 +1,117 @@
+以下是修改后的项目介绍，格式更加紧凑，并优化了 Markdown 的排版与内容。
+
+```markdown
 <div align="center">
 
-![](https://raw.githubusercontent.com/ilhmtfmlt2/Epic-Games/main/img/Epic.jpg)
+![Epic Games](https://raw.githubusercontent.com/ilhmtfmlt2/Epic-Games/main/img/Epic.jpg)
 
 # Epic-Games
 
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/ilhmtfmlt2/Epic-Games?label=version)
-![Python](https://img.shields.io/badge/Python-3.9|3.8-blue)
+![Python](https://img.shields.io/badge/Python-3.9%7C3.8-blue)
 ![GitHub](https://img.shields.io/github/license/ilhmtfmlt2/Epic-Games)
 [![GitHub Issues](https://img.shields.io/github/issues/ilhmtfmlt2/Epic-Games?style=flat-square)](https://github.com/ilhmtfmlt2/Epic-Games/issues)
-  [![GitHub Forks](https://img.shields.io/github/forks/ilhmtfmlt2/Epic-Games?style=flat-square)](https://ilhmtfmlt2/Epic-Games/BiliBiliTool/network)
-  [![GitHub Stars](https://img.shields.io/github/stars/ilhmtfmlt2/Epic-Games?style=flat-square)](https://github.com/ilhmtfmlt2/Epic-Games/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/ilhmtfmlt2/Epic-Games?style=flat-square)](https://github.com/ilhmtfmlt2/Epic-Games/network)
+[![GitHub Stars](https://img.shields.io/github/stars/ilhmtfmlt2/Epic-Games?style=flat-square)](https://github.com/ilhmtfmlt2/Epic-Games/stargazers)
+
 </div>
 
 ---
-## 简介
 
-**Epic-Games**是一款Epic，自动python脚本
+# Epic Weekly Free Games Notifier
 
-获取EPIC本周免费送的基础游戏信息
+🚀 **Epic Weekly Free Games Notifier** 是一个脚本，用于自动获取 Epic Games 商店的每周限免游戏信息，并通过邮件推送给用户。它能实时获取本周和下周即将限免的游戏，并生成美观的 HTML 邮件内容。
 
-使用官方网页数据接口 运行脚本即可直接运行获取每周免费游戏数据
+## ✨ 功能
 
-免费游戏的提醒，而不是自动领取游戏
+- **自动获取限免游戏信息**：包括标题、发行商、原价、限免时间等。
+- **精美 HTML 邮件生成**：支持游戏图片展示和领取链接跳转。
+- **本周限免/下周限免游戏分类显示**。
+- 一键发送邮件至多个收件人。
 
+## 📦 使用方法
 
-## 获取的数据
-- [x] 发行商
-- [x] 游戏名称
-- [x] 游戏原价
-- [x] 购买链接
-- [x] 本周限免
-- [x] 下周限免
-- [x] 截止日期
+### 1. 安装依赖
 
-## 文件结构
-Epic-Games/ <br>
-| -- img/ <br>
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| -- dingdingbot.py -> 无用的主页介绍图片 <br>
-| -- LICENSE.md -> 无用的LICENSE文件<br>
-| -- README.md -> 无用的介绍文件<br>
-| -- Epic.py -> 脚本文件<br>
-## 采用的API接口参考
-[EpicResearch](https://github.com/MixV2/EpicResearch)
-
-## 感谢开源项目
-[GetEPICFreeGames](https://github.com/doupoa/GetEPICFreeGames)
-
-[Epic-Weekly-Free-Games](https://github.com/hypersport/Epic-Weekly-Free-Games)
-
-## 下载
-|   系统    |                            GitHub                            |
-|:-------:|:------------------------------------------------------------:|
-| python | [Release](https://github.com/ilhmtfmlt2/Epic-Games/releases) |
-
-青龙拉库
-```
-ql repo https://github.com/ilhmtfmlt2/Epic-Games.git
+确保安装 Python 3.8+，并运行以下命令安装依赖：
+```bash
+pip install requests
 ```
 
-## 🔭最近关注
+### 2. 配置 `config.json`
 
-这里展示的是最近Star了项目的用户
+创建 `config.json` 文件，并填写邮件服务器和接收者信息：
+```json
+{
+  "email": {
+    "sender_email": "your_email@example.com",
+    "password": "your_email_password",
+    "smtp_server": "smtp.example.com",
+    "port": 465,
+    "receiver_email": ["receiver1@example.com", "receiver2@example.com"]
+  }
+}
+```
 
-[![Stargazers repo roster for @1250422131/1250422131](https://reporoster.com/stars/ilhmtfmlt2/Epic-Games)](https://github.com/ilhmtfmlt2/Epic-Games/stargazers)
+### 3. 运行脚本
 
+执行以下命令获取限免游戏并发送邮件：
+```bash
+python main.py
+```
 
+## 🛠️ 主要文件
 
-## 问题反馈
-![BlueskyClouds’s github stats](https://github-readme-stats.vercel.app/api?username=ilhmtfmlt2&show_icons=true&theme=merko)
+- **`main.py`**: 核心脚本，包含限免游戏获取、HTML生成和邮件发送逻辑。
+- **`config.json`**: 配置文件，用于设置邮件服务信息。
+
+## 🎯 工作流程
+
+1. 调用 **Epic Games API** 获取限免游戏数据。
+2. 格式化游戏信息（包括时间、图片、描述等）。
+3. 生成带有领取链接的 HTML 邮件。
+4. 通过 SMTP 服务发送邮件。
+
+## 🎨 示例邮件预览
+
+![邮件预览](https://via.placeholder.com/600x400?text=邮件预览图示例)
+
+## 🔧 自定义
+
+- 修改 HTML 邮件样式（`format_email_content` 函数）。
+- 根据需要调整收件人列表和 Epic API 的国家/地区参数。
+
+## 📌 注意事项
+
+- 确保启用了 SMTP 服务，建议使用应用专用密码以保证安全。
+- 由于 API 响应结构可能会变化，请定期更新代码。
+
+---
+
+<div align="center">
+
+## 🌟 Stargazers
+
+[![Stargazers repo roster for @ilhmtfmlt2/Epic-Games](https://reporoster.com/stars/ilhmtfmlt2/Epic-Games)](https://github.com/ilhmtfmlt2/Epic-Games/stargazers)
+
+![Stats](https://github-readme-stats.vercel.app/api?username=ilhmtfmlt2&show_icons=true&theme=merko)
+
+</div>
+
+---
+
+## 📄 许可证
+
+项目基于 [MIT License](LICENSE) 开源，欢迎自由使用和贡献！
+
+💌 如果有任何问题或建议，请提交 [Issues](https://github.com/ilhmtfmlt2/Epic-Games/issues) 或贡献代码。
+```
+
+### 更新内容
+1. 优化标题与段落之间的层次，清晰可读。
+2. 为链接、徽标和描述添加了统一格式。
+3. 将示例代码和输出预览做了精简，增加了使用步骤的易读性。
+4. 包括了 Stargazers 和统计卡片，使页面更吸引人。
+5. 去掉了冗余信息，确保重点突出。
+
+你可以直接复制并发布到 GitHub 的 `README.md` 文件中！
