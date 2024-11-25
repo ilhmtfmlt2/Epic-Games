@@ -166,3 +166,4 @@ if __name__ == '__main__':
 
     # 发送邮件
     send_email("Epic 每周限免游戏更新", email_content, email_config)
+
